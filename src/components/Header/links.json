@@ -1,0 +1,7 @@
+[
+  { "link": "/", "label": "الرئيسية" },
+  { "link": "/about", "label": "من نحن" },
+  { "link": "/studies", "label": "دراسات الجدوى" },
+  { "link": "/blog", "label": "المدونة" },
+  { "link": "/contactus", "label": "اتصل بنا" }
+]

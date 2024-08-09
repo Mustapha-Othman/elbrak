@@ -1,0 +1,28 @@
+.root {
+  padding: calc(var(--mantine-spacing-xl) * 1.5);
+  background-color: var(--mantine-color-Color4-filled);
+}
+.card {
+  background-color: var(--mantine-color-Color1-filled);
+  color: #000;
+}
+.value {
+  font-size: rem(24px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.diff {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: light-dark(var(--mantine-color-Color3), var(--mantine-color-Color3));
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+}

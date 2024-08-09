@@ -1,0 +1,6 @@
+.conatiner {
+  background-color: lighten(var(--mantine-color-Color1-filled), 50%);
+  background-image: url("/patternbg.svg");
+  background-repeat: repeat;
+  background-size: 10px;
+}

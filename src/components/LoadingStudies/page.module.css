@@ -1,0 +1,26 @@
+.titleBody {
+  position: relative;
+  padding: 100px 0;
+  background-color: var(--mantine-color-Color1-filled);
+  background-image: url("/feasibility-title.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-clip: border-box;
+  background-attachment: scroll;
+  transition: all 1s;
+  text-align: center;
+
+  @mixin hover {
+    background-size: 105%;
+  }
+}
+.title {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  font-size: 50px;
+  z-index: 9999;
+  display: block;
+  text-align: center;
+}

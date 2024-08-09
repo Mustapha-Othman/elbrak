@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Cairo", sans-serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+html,
+body {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  background-color: var(--mantine-color-Color1-filled);
+}
+h1 {
+  font-family: "Cairo", sans-serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+.app {
+  position: relative;
+  min-height: 20rem;
+}
+.cairo-fonts {
+  font-family: "Cairo", sans-serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+
+.mantine-Spotlight-overlay {
+  z-index: 99999999 !important;
+}
+
+.mantine-Spotlight-inner {
+  z-index: 999999999 !important;
+}
+
+.mantine-Kbd-root {
+  background-color: var(--mantine-color-Color3-filled) !important;
+  border-color: darken(var(--mantine-color-Color3-filled), 40%) !important;
+  color: #fff !important;
+  padding: 0 5px !important;
+}
+
+.mantine-Spotlight-actionsList {
+  padding: 10px !important;
+  /* margin-bottom: 10px !important; */
+}
+.mantine-Spotlight-action {
+  padding-bottom: 10px !important;
+  border-bottom: 1px lighten(var(--mantine-color-Color2-filled), 90%) solid !important;
+}
+.mantine-Spotlight-actionLabel {
+  color: var(--mantine-color-Color3-filled) !important;
+}
+
+.mantine-Spotlight-actionDescription {
+  color: var(--mantine-color-Color2-filled) !important;
+}
+/* .mantine-focus-auto {
+  padding-bottom: 10px !important;
+} */

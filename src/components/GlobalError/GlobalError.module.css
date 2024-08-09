@@ -1,0 +1,39 @@
+.root {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  min-height: 80dvh;
+  place-content: center;
+  padding: 30px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: rem(40px);
+  margin-bottom: var(--mantine-spacing-md);
+  font-family: Greycliff CF, var(--mantine-font-family);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    font-size: rem(32px);
+  }
+}
+
+.control {
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
+}
+
+.mobileImage {
+  @media (min-width: 48em) {
+    display: none;
+  }
+}
+
+.desktopImage {
+  text-align: center;
+  /* @media (max-width: 47.99em) {
+    display: none;
+  } */
+}
